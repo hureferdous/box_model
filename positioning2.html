@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html leng="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>positioning</title>
+		<style type="text/css">
+		     #container{
+			     width:960px;
+				 margin-right:auto;
+				 margin-left:auto;
+				 font-size:0;
+				 position:relative;
+				 background-color:#ff22aa;
+			 }
+			 .box {
+			     width:220px;
+				 height:150px;
+				 position:relative;
+			     display:inline-block;
+				 background-color:#22aa99;
+                 margin:10px;
+                 border-radius: 10px;
+				 font-family:serif;
+				 font-size: 22px;
+				 text-align: center;
+	
+			 }
+			 #box1{
+	              top: 250px; /*offsets boxes relative to the conatiner*/
+              }
+             #box2{
+	              top: 180px; 
+                   }
+             #box3{
+	               top: 80px; 
+                 }
+             #box4{
+	                top:0px; 
+              }
+		</style> 
+	</head>	
+	<body>
+	     <div id="container">
+		      <div class="box" id="box1">
+			  </div>
+			  <div class="box" id="box2">
+			  </div>
+			  <div class="box" id="box3">
+			  </div>
+			  <div class="box" id="box4">
+			  </div>
+		 </div>
+	 </body>
+</html>	 
